@@ -110,7 +110,7 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  const code = e.which 
+  const code = e.which
 
   if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code)> -1 {
     e.preventDefault()
@@ -118,7 +118,7 @@ function moveDodger(e) {
   }
 
 if (code === LEFT_ARROW) {
-  moveDodgerLeft() 
+  moveDodgerLeft()
 } else if (code === RIGHT_ARROW {
   moveDodgerRight()
 })
